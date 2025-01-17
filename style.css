@@ -8,17 +8,30 @@ body {
 }
 
 #card-1 {
-    border: 2px solid black;
-    border-radius: 30px;
     padding: 20px;
     width: 49%;
     margin-right: 10px;
 }
 
+#testimonial-1 {
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
+
+#occupation-1, #occupation-2 {
+    font-size: 14px;
+}
+
+#author-1, #author-2 {
+    font-size: 20px;
+}
+
 #image-1, #image-2 {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
@@ -29,26 +42,49 @@ body {
     width: 49%;
 }
 
+#author-2, #occupation-2 {
+    position: relative;
+    left: 10px;
+    top: 12px;
+}
+
+#author-2 {
+    margin-bottom: -10px;
+}
+
 #card-3 {
     border: 2px solid black;
     border-radius: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 20px;
+    background-color: black;
 }
 
 #image-3 {
     float: left;
     border-radius: 30px;
-    width: 300px;
-    height: 200px;
-    margin-top: 10px;
+    width: 230px;
+    height: 230px;
+    margin-top: 30px;
     margin-right: 10px;
+}
+    
+#testimonial-3, #author-3 {
+    color: white;
+}
+
+#author-3 {
+    font-size: 24px;
+}
+
+#occupation-3 {
+    color: grey;
 }
 
 #card-4 {
     border: 2px solid black;
     border-radius: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 20px;
 }
 
@@ -60,3 +96,13 @@ body {
     height: 100px;
     border-radius: 50%;
 }
+
+#testimonial-4 {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#author-4 {
+    text-align: center;
+}   
